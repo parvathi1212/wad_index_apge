@@ -1,0 +1,63 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form target = "_self">
+        <fieldset>
+        <legend>Login Form:</legend>
+        <label for = "name">Name:</label><br>
+        <input type = "text" id = "name" name = "name"><br>
+        <label for = "mobile">Mobile no:</label><br>
+        <input type = "tel" id = "mobile" min = 10><br>
+        <label for = "password" >Password:</label><br>
+        <input type = "password" id = "password" name = "password"><br>
+        <p>Week:</p>
+        <input type = "week">
+        <p>enter URL:</p>
+        <input type="url"><br>
+        <label>Gender:</label><br>
+        <input type = "radio" name = "gender" id = "gender1">
+        <label for = "gender1">Male</label><br>
+        <input type = "radio" name = "gender" id = "gender2">
+        <label for = "gender2">Female</label><br>
+        <label for = "dob">DOB:</label>
+        <input type = "datetime-local" id = "dob"><br>
+        <label for = "email">Email address:</label>
+        <input type = "email" id = "email"><br>
+        <p>Search here:</p>
+        <input type="search">
+        <p>Select a Language:
+        <select id = "subs" size = 2 multiple aria-placeholder="Select">
+            <option value = "c">C</option>
+            <option value = "py" selected>Python</option>
+            <option value = "java">Java</option>
+        </select><br></p>
+        <label for = "color">select your favourite colour</label>
+        <input type = "color" value = "rgb(0,0,0)" id = "color"><br>
+        <p>Experience in c:</p>
+        <input type="range" min = 0 max = 100><br>
+        <label for = "address">Address:</label>
+        <textarea name = "address" id = "address" rows = 20 cols = 20></textarea><br>
+        <input type = "checkbox" name = "condition" id = "accept">
+        <label for = "name">Accept the terms and conditions</label><br>
+        <p>My file:</p>
+        <input type="file"><br>
+        <p>It is hidden</p>
+        <p>Select a image:</p>
+        <input type="image"><br>
+        <input type="month" placeholder="month"><br>
+        <input type="number" placeholder="number"><br>
+        <input type = "hidden" value = "3456"><br>
+        <input type = "button" name = "click me" value = "click"><br><br>
+        <input type = "submit">
+        <input type = "reset">
+    </fieldset>
+
+
+    </form>
+</body>
+</html>
