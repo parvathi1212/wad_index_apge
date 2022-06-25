@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>net_page</title>
+    <style>
+        *{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        body{
+            background-color: #FAFAFA;
+        }
+        #pic{
+            width:50px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        #tab{
+            text-align: center;
+            margin-left: 650px;
+            margin-top: 80px;
+            width: 400px;
+            background-color: white;
+        }
+        #picrow{
+            background-color:#055BB5;
+        }
+        #txt1{
+            color:#055BB5 ;
+            padding-top: 25px;
+            padding-bottom: 10px;
+            font-size: 20px;
+            word-spacing: 0px;
+            font-weight: 500;
+        }
+        #txt2{
+            color:#055BB5;
+            padding-top: 50px;
+            padding-bottom: 30px;
+            font-weight: bold;
+            padding-bottom: 60px;
+        }
+        .in{
+            padding-top: 8px;
+            padding-bottom: 8px;
+            font-size: large;
+            padding-left: 10px;
+            border-radius: 5px;
+            border-color: darkgray;
+        }
+        #but{
+            background-color: #44AC33;
+            border: 0;
+            color: whitesmoke;
+            font-size: 18px;
+            padding-left: 130px;
+            padding-right: 130px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-radius: 5px;
+        }
+        #sign{
+            text-align: center;
+        }
+        #help{
+            text-align: center;
+            color:#055BB5;
+        }
+        #end{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table id = 'tab' cellpadding = 20 >
+        <tr id = 'picrow'>
+            <td>
+                <img src = 'svecw_logo2.png' id = 'pic'>
+            </td>
+        </tr>
+        <tr>
+            <td id = 'txt1'>
+                <p>Sign in to access this network</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type = 'textbox' size = 30 placeholder="Username" class = 'in'>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type = 'password' placeholder="Password" size = 30 class = 'in'>
+            </td>
+        </tr>
+        <tr>
+            <td id = 'sign'>
+                <input type = 'button' name = 'Sign in' value = 'Sign in' id = 'but'>
+            </td>
+        </tr>
+        <tr>
+            <td id = 'txt2'>
+                Access the User Portal
+            </td>
+        </tr>
+    </table>
+    <p id = 'help'>Help</p>
+    <p id = 'end'>Note: Students May Login using Reg.No as User Name and Password is MAC Address(Lower Case) with out "-" or ":"</p>
+</body>
+</html>

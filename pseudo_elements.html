@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo_elements</title>
+    <style>
+        a:link{
+            color: black;
+        }
+        a:visited{
+            color:darkgoldenrod;
+        }
+        a:hover{
+            color:brown;
+        }
+        a:active{
+            color: yellow;
+        }
+        p{
+            font-size: 20px;
+        }
+        ::selection{
+            background-color: aqua;
+            color: black;
+            text-shadow: 0 0 20px;
+            text-transform: uppercase;
+        }
+        li{
+            font-size: 20px;
+        }
+        ::marker{
+            color: darkorange;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>States of links</h1>
+    <a href = '#'>unopened link : black</a><br>
+    <a href = "#">Hover me : brown</a><br>
+    <a href = "#">Select me : yellow</a><br>
+    <a href = '#'>Already Visited : gold</a><br>
+    <h1>Select the content:</h1>
+    <p>Assuming leadership of the Indian National Congress in 1921, Gandhi led nationwide campaigns for easing
+        poverty, expanding women's rights, building religious and ethnic amity, ending untouchability, and, 
+        above all, achieving swaraj or self-rule.[10] Gandhi adopted the short dhoti woven with hand-spun yarn 
+        as a mark of identification with India's rural poor. He began to live in a self-sufficient residential 
+        community, to eat simple food, and undertake long fasts as a means of both introspection and political 
+        protest. Bringing anti-colonial nationalism to the common Indians, Gandhi led them in challenging the 
+        British-imposed salt tax with the 400 km (250 mi) Dandi Salt March in 1930 and in calling for the British 
+        to quit India in 1942. He was imprisoned many times and for many years in</p>
+
+    <h1>Markers Demo</h1>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+</body>
+</html>

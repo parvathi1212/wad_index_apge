@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css lists a</title>
+    <style>
+        body:hover{
+                background-color: lightcyan;
+        }
+        ul{
+            padding: 5px;
+            background-color: darkslategrey;
+            list-style-position: inside;
+        }
+        ul li{
+            background-color: lightblue;
+            margin: 5px;
+            font-size: 20px;
+            padding: 5px;
+            margin-left: 35px;
+        }
+        ol{
+            background-image: linear-gradient(to right,cadetblue,white);
+            padding: 20px;
+        }
+        ol li{
+            background-color:rgb(232, 181, 213);
+            padding: 10px;
+            margin: 5px;
+        }
+        #l2{
+            list-style-type: lower-roman;
+            list-style-position: inside;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        Default lists:
+    </h1>
+    <h3>Ordered List</h3>
+    <ol>
+        <li>Discrete Mathematics</li>
+        <li>Data Science using Python</li>
+        <li>Operating Systems</li>
+        <li>English-II</li>
+        <li>Data Base Management Systems</li>
+    </ol>
+    <h1>UNORDERED LISTS:</h1>
+    <ul>
+        <li>Desktop</li>
+        <li>Mouse</li>
+        <li>KeyBoard</li>
+        <li>CPU</li>
+        <li>Speaker</li>
+    </ul>
+    <h1>ORDERED LISTS:</h1>
+    <ol id = 'l2'>
+        <li>TELUGU</li>
+        <li>ENGLISH</li>
+        <li>HINDI</li>
+        <li>TAMIL</li>
+    </ol>
+</body>
+</html>
